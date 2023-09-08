@@ -1,0 +1,126 @@
+.card{
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    display: inline-block;
+    border-radius: 30px;
+    color: white;
+}
+.card2{
+    background-image: url(../images/2.webp);
+    background-size: cover;
+    background-position: center bottom;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.card p{
+    text-align: justify;
+    line-height: 27px;
+    font-size: 18px;
+}
+.card a{
+    text-decoration: none;
+    background-image: linear-gradient(to right,red,rgb(253, 95, 95));
+    color: white;
+    padding: 17px 22px;
+    display: inline-block;
+    border-radius: 0 30px 30px 0;
+}
+.card a:hover{
+    color: black;
+}
+.card3{
+    background-color: rgba(0, 0, 0, 0.432);
+    background-image: url(../images/3.jpeg);
+    background-size: cover;
+    background-position: center right;
+    background-blend-mode: multiply;
+}
+.card4{
+    background-color: rgba(0, 0, 0, 0.644);
+    background-image: url(../images/4.webp);
+    background-size: cover;
+    background-position: top right;
+    background-blend-mode: multiply;
+}
+.gradient1{
+    
+    background: #6D6027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #D3CBB8, #6D6027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.gradient2{
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.gradient3{
+    background: #649173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.wrapper{
+    width: fit-content;
+    margin: auto;
+}
+
+
+
+
+
+  .section3{
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: rgba(235, 229, 229, 0.452);
+  }
+.save{
+    background-color:  #5516a0 ;
+    padding: 5px 5px;
+    font-size: 18px;
+    margin: 0 0 18px -40px;
+    width: fit-content;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    
+}
+.image{
+    width: 70%;
+    margin: 0 60px 0 50px;
+    padding: 0 0 30px 0;
+}
+
+.details{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 0 20px -10px;
+    display: block;
+   
+}
+.price{
+    color: red;
+    font-size: 25px;
+    display: inline-flex;
+}
+.price1{
+    margin-top: -52px;
+    margin: -52px 0 0 130px;
+    font-size: 20px;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.548);
+}
+.mainDiv{
+    width: fit-content;
+    margin: auto;
+}
+
+.details:hover{
+    color: red;
+}
